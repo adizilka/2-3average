@@ -1,0 +1,165 @@
+{
+  "contractName": "TodoList",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058205c3096730d881afb0bf1d5353e22ff84beaf5c20f31cda823e27ff68b82ed7250029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058205c3096730d881afb0bf1d5353e22ff84beaf5c20f31cda823e27ff68b82ed7250029",
+  "sourceMap": "40:30:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;40:30:2;;;;;;;",
+  "deployedSourceMap": "40:30:2:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\r\n\r\n//todo list\r\ncontract TodoList {\r\n  \r\n  \r\n}\r\n\r\n\r\n\r\n",
+  "sourcePath": "C:/Users/Dell/Desktop/tau/sadna/try3/contracts/TodoList.sol",
+  "ast": {
+    "absolutePath": "/C/Users/Dell/Desktop/tau/sadna/try3/contracts/TodoList.sol",
+    "exportedSymbols": {
+      "TodoList": [
+        1555
+      ]
+    },
+    "id": 1556,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1554,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1555,
+        "linearizedBaseContracts": [
+          1555
+        ],
+        "name": "TodoList",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1556,
+        "src": "40:30:2"
+      }
+    ],
+    "src": "0:78:2"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/Dell/Desktop/tau/sadna/try3/contracts/TodoList.sol",
+    "exportedSymbols": {
+      "TodoList": [
+        1555
+      ]
+    },
+    "id": 1556,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1554,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1555,
+        "linearizedBaseContracts": [
+          1555
+        ],
+        "name": "TodoList",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1556,
+        "src": "40:30:2"
+      }
+    ],
+    "src": "0:78:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {
+        "0x05d0fb833127fc08168556d0e7ca9554fc3f6bc843b3b7d2bf1c35aea6bab660": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "content",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "completed",
+              "type": "bool"
+            }
+          ],
+          "name": "TaskCreated",
+          "type": "event",
+          "signature": "0x05d0fb833127fc08168556d0e7ca9554fc3f6bc843b3b7d2bf1c35aea6bab660"
+        },
+        "0xe21fa966ca5cd02748c0752352d18c48165e61cb55b4c29cccf924b5a95fcff1": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "completed",
+              "type": "bool"
+            }
+          ],
+          "name": "TaskCompleted",
+          "type": "event",
+          "signature": "0xe21fa966ca5cd02748c0752352d18c48165e61cb55b4c29cccf924b5a95fcff1"
+        },
+        "0x4c4cdd4c0711be4f51c9df6a9dfd0a2afc68d11045166b1254e657ba5d1b1c2c": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "completed",
+              "type": "bool"
+            }
+          ],
+          "name": "ErrorCompleted",
+          "type": "event",
+          "signature": "0x4c4cdd4c0711be4f51c9df6a9dfd0a2afc68d11045166b1254e657ba5d1b1c2c"
+        }
+      },
+      "links": {},
+      "address": "0xd8496C20f49AbCbc25Dca5E633F94F95B3c07343",
+      "transactionHash": "0x67a855d20d9183af4ce9c4d7584e3136e6ef06ec6c0eacc75444ab22ad14b200"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2021-09-01T09:20:49.280Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
